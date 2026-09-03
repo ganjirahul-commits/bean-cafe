@@ -1,9 +1,12 @@
 # Bean Cafe
 
 A daily margin + cash tracker for a small cafe. Set each product's buy/sell price once,
-log the stock you buy each day, record dues (credit) as they happen, then **check out** to
-close the day: it counts leftover stock, carries it to tomorrow, and shows profit, sales,
-drawer cash, and dues owed. Syncs live across phones via Supabase.
+log the stock you buy each day, then log sales straight from the product list as either
+Counter (cash) or Due (credit) — due sales update that customer's tab automatically, no
+manual re-entry. Track what suppliers are owed (Payables) and log day-to-day costs
+(Expenses), both of which feed into the day's numbers. Then **check out** to close the
+day: it counts leftover stock, carries it to tomorrow, and shows profit, sales, drawer
+cash, and dues owed. Syncs live across phones via Supabase.
 
 **Fully self-contained.** `app.js` bundles React + Supabase — nothing loads from the
 internet at runtime, so it works even behind ad-blockers. Just host the folder.
