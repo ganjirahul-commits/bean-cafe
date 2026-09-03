@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#17110E" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<link rel="manifest" href="./manifest.json" />
+<link rel="apple-touch-icon" href="./icon.svg" />
+<title>Bean Cafe</title>
+<style>
+  html,body{margin:0;background:#17110E;}
+  *{-webkit-tap-highlight-color:transparent;box-sizing:border-box;}
+  input::placeholder{color:#A08F7D;opacity:.55;}
+  button:focus-visible,input:focus-visible{outline:2px solid #57D08A;outline-offset:1px;}
+  @media (prefers-reduced-motion: reduce){*{transition:none!important;}}
+  #root>div>p{color:#A08F7D;font-family:-apple-system,system-ui,sans-serif;text-align:center;padding-top:80px;}
+</style>
+</head>
+<body>
+<div id="root"><div><p>Warming up the counter…</p></div></div>
+<script src="./app.js"></script>
+</body>
+</html>

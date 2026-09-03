@@ -1,0 +1,13 @@
+{
+  "name": "Bean Cafe",
+  "short_name": "Bean Cafe",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#17110E",
+  "theme_color": "#17110E",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
